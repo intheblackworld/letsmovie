@@ -1,0 +1,1359 @@
+@charset "UTF-8";
+/* line 22, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 38, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 77, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 88, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 98, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 113, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 118, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 132, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 137, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 142, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 147, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 152, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 157, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/* line 163, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 168, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 178, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 184, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 191, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 197, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 203, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 213, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 220, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 225, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 232, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 237, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 245, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 249, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 260, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 267, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 272, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 279, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 293, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 299, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 310, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 321, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 326, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 335, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 346, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 358, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 367, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 379, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 389, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 398, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 409, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 418, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 424, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 432, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 444, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 22, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 38, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 77, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 88, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 98, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 113, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 118, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 132, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 137, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 142, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 147, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 152, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 157, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/* line 163, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 168, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 178, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 184, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 191, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 197, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 203, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 213, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 220, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 225, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 232, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 237, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 245, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 249, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 260, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 267, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 272, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 279, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 293, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 299, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 310, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 321, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 326, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 335, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 346, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 358, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 367, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 379, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 389, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 398, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 409, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 418, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 424, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 432, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 444, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, ../sass/partials/_page.sass */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 31, ../sass/partials/_page.sass */
+body, select, input, textarea {
+  color: black;
+  outline: none;
+  font-family: Helvetica, Arial, monospace, "微軟正黑體", "Microsoft JhengHei", DFKai-SB, sans-serif, STSongti-TC-Regular;
+  font-size: 14px;
+}
+
+/* line 54, ../sass/partials/_page.sass */
+.bg1 {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  background-image: url("../img/bg1.png");
+  height: auto;
+  padding: 40px;
+}
+
+/* line 58, ../sass/partials/_page.sass */
+.test1 {
+  background-color: red;
+}
+
+/* line 60, ../sass/partials/_page.sass */
+.test2 {
+  background-color: blue;
+}
+
+/* line 62, ../sass/partials/_page.sass */
+.test3 {
+  background-color: green;
+}
+
+/* line 67, ../sass/partials/_page.sass */
+.banner-slogan {
+  margin-top: 80px;
+  margin-bottom: 300px;
+}
+/* line 70, ../sass/partials/_page.sass */
+.banner-slogan h1 {
+  color: white;
+  margin: 0.2em 0;
+  font-size: 3.5em;
+}
+/* line 74, ../sass/partials/_page.sass */
+.banner-slogan span {
+  color: white;
+  font-size: 1.4em;
+}
+
+/* line 77, ../sass/partials/_page.sass */
+.banner-sub {
+  color: white;
+  font-size: 1.1em;
+}
+
+/* line 80, ../sass/partials/_page.sass */
+.social-fb > img {
+  transition: all 0.5s;
+}
+
+/* line 82, ../sass/partials/_page.sass */
+.social-line > img {
+  transition: all 0.5s;
+}
+
+/* line 85, ../sass/partials/_page.sass */
+.social-fb:hover img {
+  transform: scale(1.2);
+}
+
+/* line 88, ../sass/partials/_page.sass */
+.social-line:hover img {
+  transform: scale(1.2);
+}
+
+/* line 92, ../sass/partials/_page.sass */
+.social-fb img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* line 97, ../sass/partials/_page.sass */
+.social-line img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* line 101, ../sass/partials/_page.sass */
+.btn {
+  margin: 10px 10px 10px 0px;
+  font-size: 1.2em;
+  outline: none;
+}
+
+/* line 107, ../sass/partials/_page.sass */
+.btn:active, .btn:focus, .btn:target {
+  outline: none;
+  background-color: #F8C858;
+  border: 1px solid white;
+}
+
+/* line 112, ../sass/partials/_page.sass */
+.btn-boy {
+  background-color: #F8C858;
+  border: 1px solid white;
+}
+
+/* line 115, ../sass/partials/_page.sass */
+.btn-boy:hover {
+  background-color: #D0A748;
+  border: 1px solid white;
+}
+
+/* line 118, ../sass/partials/_page.sass */
+.btn-girl {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/* line 121, ../sass/partials/_page.sass */
+.btn-girl:hover {
+  background-color: #DE728D;
+  border: 1px solid white;
+}
+
+/* line 124, ../sass/partials/_page.sass */
+a {
+  color: black;
+}
+
+/* line 126, ../sass/partials/_page.sass */
+a:hover, a:active, a:focus {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 130, ../sass/partials/_page.sass */
+.btn-girl > a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* line 135, ../sass/partials/_page.sass */
+.btn-boy > a {
+  padding: 10px 20px;
+}
+
+/* line 137, ../sass/partials/_page.sass */
+.btn-girl > a:active, .btn-girl > a:hover, .btn-girl > a:focus {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 141, ../sass/partials/_page.sass */
+button > .btn-git > a:hover, button > .btn-git > a:active {
+  text-decoration: none;
+}
+
+/* line 144, ../sass/partials/_page.sass */
+.bg2 {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  background-color: #3F464C;
+  padding: 80px 40px;
+}
+
+/* line 148, ../sass/partials/_page.sass */
+.text1 {
+  font-size: 2.8em;
+  padding-top: 100px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* line 154, ../sass/partials/_page.sass */
+.bg3 {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  background-color: #F8C858;
+  padding: 80px 40px;
+}
+
+/* line 158, ../sass/partials/_page.sass */
+.text2 {
+  padding-top: 40px;
+  color: black;
+}
+/* line 161, ../sass/partials/_page.sass */
+.text2 h1 {
+  font-size: 2.8em;
+}
+/* line 163, ../sass/partials/_page.sass */
+.text2 span {
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 167, ../sass/partials/_page.sass */
+.bg4 {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  background-image: url("../img/bg2.png");
+  height: auto;
+  padding: 40px 0px 60px;
+}
+/* line 171, ../sass/partials/_page.sass */
+.bg4 h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 173, ../sass/partials/_page.sass */
+.loopwhite {
+  background-color: rgba(255, 255, 255, 0.46);
+  padding: 0px 40px;
+}
+
+/* line 176, ../sass/partials/_page.sass */
+.circle {
+  border-radius: 999px;
+  border: 3px solid #F8C858;
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  margin: 40px auto 20px;
+}
+/* line 183, ../sass/partials/_page.sass */
+.circle img {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+/* line 187, ../sass/partials/_page.sass */
+.circle + h1 {
+  font-size: 1.2em;
+}
+
+/* line 189, ../sass/partials/_page.sass */
+.circle + h1 > span {
+  color: #F8C858;
+}
+
+/* line 191, ../sass/partials/_page.sass */
+.loopblack {
+  background-color: rgba(25, 25, 25, 0.46);
+  padding: 0px 40px;
+}
+
+/* line 195, ../sass/partials/_page.sass */
+.person .person1 {
+  width: 61px;
+  height: auto;
+  margin: 20px 10px 0px 0px;
+}
+/* line 199, ../sass/partials/_page.sass */
+.person .person2 {
+  width: 55px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* line 203, ../sass/partials/_page.sass */
+.bg5 {
+  background-color: #3E464C;
+  text-align: center;
+  padding: 40px;
+}
+/* line 207, ../sass/partials/_page.sass */
+.bg5 h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+/* line 209, ../sass/partials/_page.sass */
+.bg5 .col-sm-12 {
+  margin: 30px 0;
+}
+/* line 211, ../sass/partials/_page.sass */
+.bg5 .comment {
+  background-color: white;
+  border-radius: 5px;
+  height: 150px;
+  font-size: 1.4em;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 5px solid #36A9AE;
+}
+
+/* line 219, ../sass/partials/_page.sass */
+.bg6 {
+  padding-left: 140px;
+}
+
+/* line 221, ../sass/partials/_page.sass */
+.bg6, .mask {
+  background-size: 100% auto;
+  background-image: url("../img/bg3.png");
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+/* line 225, ../sass/partials/_page.sass */
+.mask-container {
+  position: relative;
+}
+/* line 227, ../sass/partials/_page.sass */
+.mask-container h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 20px;
+}
+/* line 230, ../sass/partials/_page.sass */
+.mask-container .mask {
+  background-image: url("../img/bg3.png");
+  height: auto;
+  background-size: 100% auto;
+  -webkit-filter: blur(10px);
+  filter: blur(5px);
+  position: absolute;
+  z-index: 99;
+  top: 60px;
+  right: 0px;
+  left: 0px;
+  bottom: 30px;
+  padding-left: 40px;
+}
+/* line 243, ../sass/partials/_page.sass */
+.mask-container .content {
+  position: relative;
+  z-index: 100;
+  padding: 20px;
+  padding-left: 140px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 251, ../sass/partials/_page.sass */
+.movie {
+  background-color: white;
+  width: 167px;
+  height: 320px;
+  margin-bottom: 20px;
+}
+/* line 256, ../sass/partials/_page.sass */
+.movie h1 {
+  font-size: 1.4em;
+  color: black;
+  text-shadow: none;
+  padding: 10px;
+}
+
+/* line 270, ../sass/partials/_page.sass */
+.bg7 {
+  background-color: #F8C858;
+  padding: 100px 40px;
+}
+/* line 273, ../sass/partials/_page.sass */
+.bg7 h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 276, ../sass/partials/_page.sass */
+.icon {
+  text-align: center;
+}
+/* line 278, ../sass/partials/_page.sass */
+.icon img {
+  width: 60%;
+  height: auto;
+}
+/* line 281, ../sass/partials/_page.sass */
+.icon h1 {
+  font-size: 1.7em;
+  color: black;
+  text-shadow: none;
+}
+
+/* line 285, ../sass/partials/_page.sass */
+.bg8 {
+  background-color: #25292C;
+  padding: 40px;
+}
+/* line 288, ../sass/partials/_page.sass */
+.bg8 h1 {
+  color: #F8C858;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 40px 0px 40px;
+}
+/* line 293, ../sass/partials/_page.sass */
+.bg8 .col-sm-8 {
+  text-align: center;
+}
+/* line 295, ../sass/partials/_page.sass */
+.bg8 .col-sm-8 h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+}
+/* line 299, ../sass/partials/_page.sass */
+.bg8 .col-sm-8 a > img {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 313, ../sass/partials/_page.sass */
+  body {
+    font-size: 12px;
+  }
+
+  /* line 315, ../sass/partials/_page.sass */
+  .bg1 {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    background-image: url("../img/bg1-phone.png");
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  /* line 319, ../sass/partials/_page.sass */
+  .social {
+    float: right;
+  }
+
+  /* line 321, ../sass/partials/_page.sass */
+  .banner-slogan {
+    margin-top: 40px;
+    margin-bottom: 150px;
+  }
+
+  /* line 324, ../sass/partials/_page.sass */
+  .signup, .social-btn {
+    float: right;
+  }
+
+  /* line 326, ../sass/partials/_page.sass */
+  .banner-sub {
+    float: right;
+    margin-right: 10px;
+    float: right;
+  }
+
+  /* line 330, ../sass/partials/_page.sass */
+  .text1 {
+    font-size: 2.3em;
+  }
+
+  /* line 333, ../sass/partials/_page.sass */
+  .text2 h1 {
+    font-size: 2em;
+  }
+  /* line 335, ../sass/partials/_page.sass */
+  .text2 span {
+    font-size: 1.7em;
+  }
+
+  /* line 337, ../sass/partials/_page.sass */
+  .loopblack {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  /* line 341, ../sass/partials/_page.sass */
+  .loopwhite {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  /* line 344, ../sass/partials/_page.sass */
+  .circle + h1 {
+    font-size: 1.7em;
+  }
+
+  /* line 346, ../sass/partials/_page.sass */
+  .person {
+    display: none;
+  }
+
+  /* line 349, ../sass/partials/_page.sass */
+  .bg6 {
+    background-color: #25292C;
+    padding-left: 0px;
+  }
+  /* line 353, ../sass/partials/_page.sass */
+  .bg6 .content {
+    padding-left: 20px;
+  }
+  /* line 355, ../sass/partials/_page.sass */
+  .bg6 .content .movie {
+    width: 79%;
+    height: auto;
+    margin-left: 10%;
+    padding-bottom: 40px;
+  }
+  /* line 360, ../sass/partials/_page.sass */
+  .bg6 .content .movie img {
+    width: 101%;
+  }
+  /* line 362, ../sass/partials/_page.sass */
+  .bg6 .content .movie h1 {
+    font-size: 2em;
+  }
+}
+/* line 7, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 27, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 9, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 66, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 92, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 98, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 104, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 18, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 23, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 35, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 41, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 51, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 56, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 64, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 71, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}
