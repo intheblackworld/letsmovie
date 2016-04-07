@@ -1092,6 +1092,7 @@ button > .btn-git > a:hover, button > .btn-git > a:active {
 .bg8 {
   background-color: #25292C;
   padding: 40px;
+  padding-bottom: 10px;
 }
 /* line 288, ../sass/partials/_page.sass */
 .bg8 h1 {
